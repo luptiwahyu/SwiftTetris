@@ -23,10 +23,10 @@ class SquareShape: Shape {
 // #2
     override var blockRowColumnPositions: [Orientation: Array<(columnDiff: Int, rowDiff: Int)>] {
         return [
-            Orientation.Zero: [(0.0), (1.0), (0.1), (1.1)],
-            Orientation.OneEighty: [(0.0), (1.0), (0.1), (1.1)],
-            Orientation.Ninety: [(0.0), (1.0), (0.1), (1.1)],
-            Orientation.TwoSeventy: [(0.0), (1.0), (0.1), (1.1)]
+            Orientation.Zero:       [(0,0), (1,0), (0,1), (1,1)],
+            Orientation.OneEighty:  [(0,0), (1,0), (0,1), (1,1)],
+            Orientation.Ninety:     [(0,0), (1,0), (0,1), (1,1)],
+            Orientation.TwoSeventy: [(0,0), (1,0), (0,1), (1,1)]
         ]
     }
     

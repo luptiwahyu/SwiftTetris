@@ -30,6 +30,8 @@ enum BlockColor: Int, Printable {
         case .Red:
             return "red"
         case .Teal:
+            return "teal"
+        case .Yellow:
             return "yellow"
         }
     }
